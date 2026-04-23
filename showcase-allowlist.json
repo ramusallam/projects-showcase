@@ -1,6 +1,7 @@
 [
   "action-potential",
   "action-potential-sequencer",
+  "arduino-button-mapper",
   "case-study-generator-v2",
   "class-timer",
   "classroom-podcast-finder",
