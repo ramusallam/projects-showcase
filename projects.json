@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-04-22T00:00:00Z",
+  "projects": [
+    {
+      "slug": "action-potential",
+      "name": "Action Potential",
+      "description": "An interactive step-by-step visualization of the action potential across a neuron membrane. Students watch ion channels open and close as sodium and potassium move through the membrane, building intuition for the molecular choreography behind nerve signaling.",
+      "url": "https://action-potential.vercel.app"
+    },
+    {
+      "slug": "action-potential-sequencer",
+      "name": "Action Potential Sequencer",
+      "description": "Students drag or tap eight cards describing action potential steps into the correct order, with optional timer challenges. Immediate visual feedback reinforces how depolarization and repolarization propagate along a neuron.",
+      "url": "https://action-potential-sequencer.vercel.app"
+    },
+    {
+      "slug": "case-study-generator-v2",
+      "name": "Case Study Generator",
+      "description": "Teachers generate fictional medical case studies that tunnel students toward specific science content through clinical reasoning. Students diagnose patients as they discover biology, chemistry, and neuroscience; teacher-side notes, student share links, and QR codes keep workflow frictionless.",
+      "url": "https://case-study-generator-v2.vercel.app"
+    },
+    {
+      "slug": "class-timer",
+      "name": "Class Timer",
+      "description": "A clean, fullscreen countdown timer built for classroom pacing. Click to set time, spacebar to start, and project it from the back of the room without distraction. Gentle chime alerts when time expires.",
+      "url": "https://class-timer.vercel.app"
+    },
+    {
+      "slug": "classroom-podcast-finder",
+      "name": "Classroom Podcast Finder",
+      "description": "Search and discover podcast episodes aligned to topics you are teaching. Helps you find real-world audio content to enrich lessons and give students authentic exposure to how professionals talk about science.",
+      "url": "https://classroom-podcast-finder.vercel.app"
+    },
+    {
+      "slug": "covalent-review-games",
+      "name": "Covalent Review Games",
+      "description": "Interactive games that help chemistry students practice covalent bonding concepts through structured challenges. Gamification makes drill-and-practice feel less like repetition and more like play.",
+      "url": "https://covalent-review-games.vercel.app"
+    },
+    {
+      "slug": "demyelination",
+      "name": "Demyelination",
+      "description": "An interactive visualization showing what happens to nerve signal propagation when the myelin sheath degrades. Students see the consequences of demyelinating diseases in real time through a dynamic, annotated diagram.",
+      "url": "https://demyelination.vercel.app"
+    },
+    {
+      "slug": "harmonica-os",
+      "name": "Harmonica OS",
+      "description": "Assistive technology that maps harmonica notes to keyboard commands. Students with limited dexterity can control computers by playing notes on an inexpensive harmonica; includes a learning mode with guided practice and real-time pitch feedback.",
+      "url": "https://harmonica-os.vercel.app"
+    },
+    {
+      "slug": "spark-learning-inquiry-studio-(alpha)",
+      "name": "Spark Learning Inquiry Studio",
+      "description": "An AI-powered studio where students design and run their own scientific inquiries. It guides students through hypothesis formation, experimental design, and data analysis with scaffolding that fades as confidence grows.",
+      "url": "https://spark-learning-alpha.vercel.app"
+    },
+    {
+      "slug": "tasks-app",
+      "name": "Tasks App",
+      "description": "A lightweight task and checklist manager for students and teachers. Organize daily work, set priorities, and track progress without bloat.",
+      "url": "https://tasks-app.vercel.app"
+    },
+    {
+      "slug": "word-cloud",
+      "name": "Word Cloud",
+      "description": "Turn text into visual word clouds to reveal patterns and frequency. Students paste essays, articles, or brainstorms to instantly see which concepts dominate the conversation, sparking reflection on their writing.",
+      "url": "https://word-cloud.vercel.app"
+    },
+    {
+      "slug": "xbac-tester",
+      "name": "XBAC Tester",
+      "description": "A testing and game tool for Xbox Adaptive Controller configurations. Helps students with accessibility needs verify their custom button mappings and build familiarity with their controller before classroom use.",
+      "url": "https://xbac-tester.vercel.app"
+    }
+  ]
+}

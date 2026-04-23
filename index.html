@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Projects showcase by Ramsey Musallam" />
+<title>Projects Showcase</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main class="showcase">
+  <header class="showcase-header">
+    <h1>Projects</h1>
+  </header>
+  <section id="grid" class="grid" aria-live="polite" aria-busy="true">
+    <p class="loading">Loading projects...</p>
+  </section>
+</main>
+
+<script>
+(async function () {
+  const grid = document.getElementById('grid');
+
+  function renderEmpty(message) {
+    grid.innerHTML = '';
+    const p = document.createElement('p');
+    p.className = 'empty';
+    p.textContent = message;
+    grid.appendChild(p);
+    grid.setAttribute('aria-busy', 'false');
+  }
+
+  function renderCards(projects) {
+    grid.innerHTML = '';
+    const sorted = [...projects].sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })
+    );
+    const frag = document.createDocumentFragment();
+    for (const project of sorted) {
+      const link = document.createElement('a');
+      link.className = 'card';
+      link.href = project.url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+
+      const body = document.createElement('div');
+      body.className = 'card-body';
+
+      const title = document.createElement('h2');
+      title.className = 'card-title';
+      title.textContent = project.name;
+
+      const desc = document.createElement('p');
+      desc.className = 'card-description';
+      desc.textContent = project.description;
+
+      body.appendChild(title);
+      body.appendChild(desc);
+      link.appendChild(body);
+      frag.appendChild(link);
+    }
+    grid.appendChild(frag);
+    grid.setAttribute('aria-busy', 'false');
+  }
+
+  try {
+    const res = await fetch('projects.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    if (!data || !Array.isArray(data.projects) || data.projects.length === 0) {
+      renderEmpty('No projects yet.');
+      return;
+    }
+    renderCards(data.projects);
+  } catch (err) {
+    renderEmpty('Projects could not be loaded right now.');
+    console.error('projects.json fetch failed:', err);
+  }
+})();
+</script>
+</body>
+</html>

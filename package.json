@@ -1,0 +1,10 @@
+{
+  "name": "projects-showcase",
+  "version": "1.0.0",
+  "description": "Public showcase of Ramsey Musallam's Class Apps. Static HTML/CSS/JS, no build step.",
+  "private": true,
+  "scripts": {
+    "deploy": "vercel --prod",
+    "preview": "vercel"
+  }
+}

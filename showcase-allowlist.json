@@ -1,0 +1,17 @@
+{
+  "description": "Curated list of Class Apps folder names approved to appear on the public projects showcase. Used by the sync script to filter which apps get included in projects.json.",
+  "folders": [
+    "action-potential",
+    "action-potential-sequencer",
+    "case-study-generator-v2",
+    "class-timer",
+    "classroom-podcast-finder",
+    "covalent-review-games",
+    "demyelination",
+    "harmonica-os",
+    "spark-learning-inquiry-studio-(alpha)",
+    "tasks-app",
+    "word-cloud",
+    "xbac-tester"
+  ]
+}
