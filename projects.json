@@ -74,7 +74,7 @@
       "slug": "word-cloud",
       "name": "Word Cloud",
       "description": "Turn text into visual word clouds to reveal patterns and frequency. Students paste essays, articles, or brainstorms to instantly see which concepts dominate the conversation, sparking reflection on their writing.",
-      "url": "https://word-cloud.vercel.app"
+      "url": "https://word-cloud-dusky.vercel.app"
     },
     {
       "slug": "xbac-tester",
