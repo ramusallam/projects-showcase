@@ -14,6 +14,14 @@
       "url": "https://action-potential-sequencer.vercel.app"
     },
     {
+      "slug": "arduino-button-mapper",
+      "name": "Arduino Button Mapper",
+      "description": "Program an Arduino Leonardo to turn physical buttons into keyboard inputs. Students design custom hardware interfaces and see them recognized by the computer instantly, bridging the gap between physical making and digital control.",
+      "url": "https://arduino.jacobmajors.com/",
+      "external": true,
+      "student_work": true
+    },
+    {
       "slug": "case-study-generator-v2",
       "name": "Case Study Generator",
       "description": "Teachers generate fictional medical case studies that tunnel students toward specific science content through clinical reasoning. Students diagnose patients as they discover biology, chemistry, and neuroscience; teacher-side notes, student share links, and QR codes keep workflow frictionless.",
@@ -48,6 +56,13 @@
       "name": "Harmonica OS",
       "description": "Assistive technology that maps harmonica notes to keyboard commands. Students with limited dexterity can control computers by playing notes on an inexpensive harmonica; includes a learning mode with guided practice and real-time pitch feedback.",
       "url": "https://harmonica-os.vercel.app"
+    },
+    {
+      "slug": "joystick-app",
+      "name": "Joystick App",
+      "description": "Configuration and testing interface for an assistive tremor-compensated joystick. Lets students with motor control challenges calibrate their adaptive controller and verify settings before use.",
+      "url": "https://joystick-app.vercel.app",
+      "student_work": true
     },
     {
       "slug": "spark-learning-inquiry-studio-(alpha)",

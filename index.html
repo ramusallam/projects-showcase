@@ -3,25 +3,36 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Projects showcase by Ramsey Musallam" />
-<title>Projects Showcase</title>
+<meta name="description" content="A working library of classroom tools by Ramsey Musallam." />
+<title>Projects | Cycles of Learning</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<main class="showcase">
-  <header class="showcase-header">
-    <h1>Projects</h1>
-  </header>
+<div class="wrap">
+  <div class="eyebrow">Projects</div>
+  <h1 class="hero-title">A working library of classroom tools, built from years of teaching questions.</h1>
+  <p class="hero-sub">Each of these began as something needed on a Tuesday afternoon. Some are polished, some are rough around the edges. All of them are free, and all of them are in use.</p>
+
+  <div class="divider"></div>
+
   <section id="grid" class="grid" aria-live="polite" aria-busy="true">
-    <p class="loading">Loading projects...</p>
+    <p class="loading">Loading</p>
   </section>
-</main>
+
+  <p class="footnote">Built in the margins of a teaching life. If one of these helps you, that is the whole point.</p>
+</div>
 
 <script>
 (async function () {
   const grid = document.getElementById('grid');
 
-  function renderEmpty(message) {
+  function accentFor(name) {
+    const first = (name || '?').charAt(0).toUpperCase().charCodeAt(0);
+    const hue = (first * 37) % 360;
+    return `hsl(${hue}, 28%, 42%)`;
+  }
+
+  function renderMessage(message) {
     grid.innerHTML = '';
     const p = document.createElement('p');
     p.className = 'empty';
@@ -36,28 +47,56 @@
       a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })
     );
     const frag = document.createDocumentFragment();
-    for (const project of sorted) {
-      const link = document.createElement('a');
-      link.className = 'card';
-      link.href = project.url;
-      link.target = '_blank';
-      link.rel = 'noopener';
+    for (const p of sorted) {
+      const card = document.createElement('a');
+      card.className = 'card';
+      card.href = p.url;
+      card.target = '_blank';
+      card.rel = 'noopener';
+      card.style.setProperty('--accent', accentFor(p.name));
 
-      const body = document.createElement('div');
-      body.className = 'card-body';
+      const glyph = document.createElement('span');
+      glyph.className = 'glyph';
+      glyph.textContent = (p.name || '?').charAt(0).toUpperCase();
 
-      const title = document.createElement('h2');
-      title.className = 'card-title';
-      title.textContent = project.name;
+      const hairline = document.createElement('span');
+      hairline.className = 'hairline';
+
+      const name = document.createElement('span');
+      name.className = 'name';
+      name.textContent = p.name;
+
+      const reveal = document.createElement('div');
+      reveal.className = 'reveal';
+
+      const revealName = document.createElement('div');
+      revealName.className = 'reveal-name';
+      revealName.textContent = p.name;
 
       const desc = document.createElement('p');
-      desc.className = 'card-description';
-      desc.textContent = project.description;
+      desc.className = 'reveal-desc';
+      desc.textContent = p.description;
 
-      body.appendChild(title);
-      body.appendChild(desc);
-      link.appendChild(body);
-      frag.appendChild(link);
+      reveal.appendChild(revealName);
+      reveal.appendChild(desc);
+
+      if (p.student_work) {
+        const byline = document.createElement('div');
+        byline.className = 'reveal-byline';
+        byline.textContent = 'Student Work';
+        reveal.appendChild(byline);
+      }
+
+      const cta = document.createElement('span');
+      cta.className = 'reveal-cta';
+      cta.textContent = 'Open';
+      reveal.appendChild(cta);
+
+      card.appendChild(glyph);
+      card.appendChild(hairline);
+      card.appendChild(name);
+      card.appendChild(reveal);
+      frag.appendChild(card);
     }
     grid.appendChild(frag);
     grid.setAttribute('aria-busy', 'false');
@@ -68,12 +107,12 @@
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     if (!data || !Array.isArray(data.projects) || data.projects.length === 0) {
-      renderEmpty('No projects yet.');
+      renderMessage('No projects yet.');
       return;
     }
     renderCards(data.projects);
   } catch (err) {
-    renderEmpty('Projects could not be loaded right now.');
+    renderMessage('Projects could not be loaded right now.');
     console.error('projects.json fetch failed:', err);
   }
 })();
