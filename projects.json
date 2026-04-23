@@ -67,14 +67,8 @@
     {
       "slug": "spark-learning-inquiry-studio-(alpha)",
       "name": "Spark Learning Inquiry Studio",
-      "description": "An AI-powered studio where students design and run their own scientific inquiries. It guides students through hypothesis formation, experimental design, and data analysis with scaffolding that fades as confidence grows.",
+      "description": "A lesson design studio for teachers, not students. Brings together technology, instructional research, and sequencing into a single environment for building fully worked-out inquiry learning cycles that teachers can deploy directly with their classes.",
       "url": "https://spark-learning-alpha.vercel.app"
-    },
-    {
-      "slug": "tasks-app",
-      "name": "Tasks App",
-      "description": "A lightweight task and checklist manager for students and teachers. Organize daily work, set priorities, and track progress without bloat.",
-      "url": "https://tasks-app.vercel.app"
     },
     {
       "slug": "word-cloud",
