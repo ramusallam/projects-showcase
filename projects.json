@@ -22,6 +22,12 @@
       "student_work": true
     },
     {
+      "slug": "balancing-reactions",
+      "name": "Balancing Reactions",
+      "description": "Students practice balancing chemical equations with immediate feedback as they adjust coefficients. Reactants and products update in real time, so the conservation of atoms becomes visible instead of abstract.",
+      "url": "https://balancing-reactions.vercel.app"
+    },
+    {
       "slug": "case-study-generator-v2",
       "name": "Case Study Generator",
       "description": "Teachers generate fictional medical case studies that tunnel students toward specific science content through clinical reasoning. Students diagnose patients as they discover biology, chemistry, and neuroscience; teacher-side notes, student share links, and QR codes keep workflow frictionless.",
