@@ -20,6 +20,12 @@
       "url": "https://action-potentials-review-games.vercel.app"
     },
     {
+      "slug": "ai-and-ml",
+      "name": "AI & ML",
+      "description": "The course hub for AI and Media Literacy. Students see every project and benchmark on one quiet page, check off their work as they complete it, and drop evidence of each benchmark (image, video, or link) into a small live gallery so the class can see each other's thinking.",
+      "url": "https://ai-ml-class.vercel.app"
+    },
+    {
       "slug": "arduino-button-mapper",
       "name": "Arduino Button Mapper",
       "description": "Program an Arduino Leonardo to turn physical buttons into keyboard inputs. Students design custom hardware interfaces and see them recognized by the computer instantly, bridging the gap between physical making and digital control.",
@@ -56,6 +62,12 @@
       "name": "Covalent Review Games",
       "description": "Interactive games that help chemistry students practice covalent bonding concepts through structured challenges. Gamification makes drill-and-practice feel less like repetition and more like play.",
       "url": "https://covalent-review-games.vercel.app"
+    },
+    {
+      "slug": "d4sg-at-sa",
+      "name": "D4SG @ SA",
+      "description": "The course hub for Design for Social Good at Sonoma Academy. A single quiet page lists every project and its benchmarks; students check off their work as they finish it, and drop evidence of each benchmark — an image, video, or link — into a small live gallery so the class can see each other's thinking.",
+      "url": "https://d4sg-at-sa.vercel.app"
     },
     {
       "slug": "demyelination",
