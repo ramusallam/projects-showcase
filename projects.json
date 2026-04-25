@@ -14,6 +14,12 @@
       "url": "https://action-potential-sequencer.vercel.app"
     },
     {
+      "slug": "action-potentials-review-games",
+      "name": "Action Potentials Review Games",
+      "description": "A three-round classroom review game pairing action potential neuroscience with rotating trivia: humanities, math, and pop culture. A sticky team scoreboard, per-question timer with a calm chime, and explanations after every answer keep the energy up while the content stays clinical.",
+      "url": "https://action-potentials-review-games.vercel.app"
+    },
+    {
       "slug": "arduino-button-mapper",
       "name": "Arduino Button Mapper",
       "description": "Program an Arduino Leonardo to turn physical buttons into keyboard inputs. Students design custom hardware interfaces and see them recognized by the computer instantly, bridging the gap between physical making and digital control.",
