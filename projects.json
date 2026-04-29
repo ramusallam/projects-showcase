@@ -95,6 +95,12 @@
       "url": "https://spark-learning-alpha.vercel.app"
     },
     {
+      "slug": "synapse-neurotransmitters",
+      "name": "The Synapse",
+      "description": "A step-by-step simulation of how one neuron talks to the next. Students watch calcium trigger vesicle release, neurotransmitters bind ball-and-socket receptors, and reuptake transporters reset the synapse, then explore neuroplasticity and how SSRIs like Zoloft modulate the chemistry.",
+      "url": "https://synapse-neurotransmitters.vercel.app"
+    },
+    {
       "slug": "word-cloud",
       "name": "Word Cloud",
       "description": "Turn text into visual word clouds to reveal patterns and frequency. Students paste essays, articles, or brainstorms to instantly see which concepts dominate the conversation, sparking reflection on their writing.",
