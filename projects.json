@@ -89,6 +89,12 @@
       "student_work": true
     },
     {
+      "slug": "newcomer-bridge",
+      "name": "Newcomer Bridge",
+      "description": "A plug-and-play five-day sequence for newcomer English learners stepping into 7th grade California history and science. Each day uses the same four-move structure (Preview, Show, Try, Say) so students get a foothold in the curriculum while teachers practice five reusable EL scaffolds: realia, sorting, sentence frames, TPR, and gradual release.",
+      "url": "https://newcomer-bridge.vercel.app"
+    },
+    {
       "slug": "spark-learning-inquiry-studio-(alpha)",
       "name": "Spark Learning Inquiry Studio",
       "description": "A lesson design studio for teachers, not students. Brings together technology, instructional research, and sequencing into a single environment for building fully worked-out inquiry learning cycles that teachers can deploy directly with their classes.",
