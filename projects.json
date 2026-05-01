@@ -52,6 +52,13 @@
       "url": "https://class-timer.vercel.app"
     },
     {
+      "slug": "class-timer-2",
+      "name": "Class Timer II",
+      "description": "A second classroom countdown timer with one-tap preset buttons from one minute to one hour. Spacebar starts and pauses, R resets, F goes fullscreen — built for projecting from the back of the room without distraction.",
+      "url": "https://class-timer-xi.vercel.app",
+      "external": true
+    },
+    {
       "slug": "classroom-podcast-finder",
       "name": "Classroom Podcast Finder",
       "description": "Search and discover podcast episodes aligned to topics you are teaching. Helps you find real-world audio content to enrich lessons and give students authentic exposure to how professionals talk about science.",
