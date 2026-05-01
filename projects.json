@@ -95,6 +95,12 @@
       "url": "https://newcomer-bridge.vercel.app"
     },
     {
+      "slug": "single-replacement-review-games",
+      "name": "Single Replacement Review Games",
+      "description": "A three-round classroom review game on single replacement reactions: predict-or-NR, balance the equation, and a mastery round of activity series puzzles. Each chemistry question alternates with a trivia break that rotates through general science, geography, and pop culture, all with a sticky team scoreboard, per-question timer, and explanation after every answer.",
+      "url": "https://single-replacement-review-games.vercel.app"
+    },
+    {
       "slug": "spark-learning-inquiry-studio-(alpha)",
       "name": "Spark Learning Inquiry Studio",
       "description": "A lesson design studio for teachers, not students. Brings together technology, instructional research, and sequencing into a single environment for building fully worked-out inquiry learning cycles that teachers can deploy directly with their classes.",
