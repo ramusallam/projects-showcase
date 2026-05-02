@@ -52,9 +52,9 @@
       "url": "https://class-timer.vercel.app"
     },
     {
-      "slug": "class-timer-2",
-      "name": "Class Timer II",
-      "description": "A second classroom countdown timer with one-tap preset buttons from one minute to one hour. Spacebar starts and pauses, R resets, F goes fullscreen — built for projecting from the back of the room without distraction.",
+      "slug": "quick-timer",
+      "name": "Quick Timer",
+      "description": "A no-fuss classroom countdown with one-tap preset buttons from one minute to one hour. Spacebar starts and pauses, R resets, F goes fullscreen — built for projecting from the back of the room without distraction.",
       "url": "https://class-timer-xi.vercel.app",
       "external": true
     },
