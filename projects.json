@@ -120,6 +120,18 @@
       "url": "https://synapse-neurotransmitters.vercel.app"
     },
     {
+      "slug": "synapse-review-games",
+      "name": "Synapse Review Games",
+      "description": "A three-round classroom review game on synaptic transmission paired with rotating trivia: world geography, general science, and pop culture. Round one covers anatomy and mechanism, round two the six common neurotransmitters, round three SSRIs versus MAO inhibitors and neuroplasticity. Sticky team scoreboard, per-question timer, and explanations after every answer.",
+      "url": "https://synapse-review-games.vercel.app"
+    },
+    {
+      "slug": "synapse-sequencer",
+      "name": "Synapse Sequencer",
+      "description": "Students drag or tap eight cards describing synaptic transmission into the correct order, with optional timer challenges. Action potential arrives at the terminal, calcium triggers vesicle fusion, neurotransmitters bind receptors and depolarize the next neuron, then reuptake transporters and enzymes reset the system.",
+      "url": "https://synapse-sequencer.vercel.app"
+    },
+    {
       "slug": "word-cloud",
       "name": "Word Cloud",
       "description": "Turn text into visual word clouds to reveal patterns and frequency. Students paste essays, articles, or brainstorms to instantly see which concepts dominate the conversation, sparking reflection on their writing.",
