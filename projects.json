@@ -114,6 +114,13 @@
       "url": "https://spark-learning-alpha.vercel.app"
     },
     {
+      "slug": "stem-workshops",
+      "name": "STEM Workshops",
+      "description": "A growing gallery of inquiry-based STEM workshops built for partner programs and summer institutes. Each card opens a full multi-day workshop app with embedded labs, simulators, vibe-coding builds, and career connections.",
+      "url": "https://stem-workshops.vercel.app",
+      "external": true
+    },
+    {
       "slug": "synapse-neurotransmitters",
       "name": "The Synapse",
       "description": "A step-by-step simulation of how one neuron talks to the next. Students watch calcium trigger vesicle release, neurotransmitters bind ball-and-socket receptors, and reuptake transporters reset the synapse, then explore neuroplasticity and how SSRIs like Zoloft modulate the chemistry.",
