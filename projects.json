@@ -20,6 +20,12 @@
       "url": "https://action-potentials-review-games.vercel.app"
     },
     {
+      "slug": "addiction-and-withdrawal",
+      "name": "Neuroscience of Withdrawal",
+      "description": "A two-part inquiry into the chemistry of addiction. Tab one introduces the five neurotransmitters at play (glutamate, GABA, dopamine, serotonin, endorphins) with textbook-quality skeletal structures and a printable one-sheet handout. Tab two plays three movie clips (Beautiful Boy, Basketball Diaries, Leaving Las Vegas) and walks students through reverse-engineering each drug's mechanism from its withdrawal symptoms.",
+      "url": "https://addiction-and-withdrawal.vercel.app"
+    },
+    {
       "slug": "ai-and-ml",
       "name": "AI & ML",
       "description": "The course hub for AI and Media Literacy. Students see every project and benchmark on one quiet page, check off their work as they complete it, and drop evidence of each benchmark (image, video, or link) into a small live gallery so the class can see each other's thinking.",
@@ -32,6 +38,12 @@
       "url": "https://arduino.jacobmajors.com/",
       "external": true,
       "student_work": true
+    },
+    {
+      "slug": "artifact-portfolio",
+      "name": "Artifact Portfolio",
+      "description": "A React portfolio app where students upload and annotate artifacts of their learning. Firebase-backed with Gemini-powered AI feedback on each piece, designed for project-based classrooms that want a low-friction way to capture process and product side by side.",
+      "url": "https://artifact-portfolio.vercel.app"
     },
     {
       "slug": "balancing-reactions",
@@ -102,6 +114,12 @@
       "url": "https://newcomer-bridge.vercel.app"
     },
     {
+      "slug": "resilient-body-workouts",
+      "name": "Resilient Body Workouts",
+      "description": "A live workout display that reads from a Google Sheet and renders the current session in a clean, charcoal-aesthetic interface. Built to project from the back of a training room, it updates instantly as the sheet is edited so coach and athletes always see the same source of truth.",
+      "url": "https://resilient-body-workouts.vercel.app"
+    },
+    {
       "slug": "single-replacement-review-games",
       "name": "Single Replacement Review Games",
       "description": "A three-round classroom review game on single replacement reactions: predict-or-NR, balance the equation, and a mastery round of activity series puzzles. Each chemistry question alternates with a trivia break that rotates through general science, geography, and pop culture, all with a sticky team scoreboard, per-question timer, and explanation after every answer.",
@@ -137,6 +155,18 @@
       "name": "Synapse Sequencer",
       "description": "Students drag or tap eight cards describing synaptic transmission into the correct order, with optional timer challenges. Action potential arrives at the terminal, calcium triggers vesicle fusion, neurotransmitters bind receptors and depolarize the next neuron, then reuptake transporters and enzymes reset the system.",
       "url": "https://synapse-sequencer.vercel.app"
+    },
+    {
+      "slug": "tasks-app",
+      "name": "Tasks App",
+      "description": "A single-file task manager built for daily project tracking. Firebase-synced, no accounts, minimal interface — just the rhythm of capturing what needs to be done and watching the list shrink as the day progresses.",
+      "url": "https://tasks-app.vercel.app"
+    },
+    {
+      "slug": "token-tour-tracker",
+      "name": "Token Tour Tracker",
+      "description": "Tracks when bands and artists who play Token guitar picks announce tours nearby. Pulls from Bandsintown and MusicBrainz, plots upcoming shows on a Leaflet map, and updates as new dates are added. Built as a single-file HTML app, ad hoc and personal.",
+      "url": "https://token-tour-tracker.vercel.app"
     },
     {
       "slug": "word-cloud",
