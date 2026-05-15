@@ -26,6 +26,26 @@
       "url": "https://addiction-and-withdrawal.vercel.app"
     },
     {
+      "slug": "addiction-and-withdrawal-review-games",
+      "name": "Neuroscience of Withdrawal Review Game",
+      "description": "Ten very hard questions on how Fentanyl, Methamphetamine, Alcohol, and MDMA hijack the synapse, plus a 5-minute team challenge to draw the mechanism behind serotonin syndrome. Students read clinical vignettes and work backwards to the disrupted system, distinguish reverse-transporter action (meth, MDMA via DAT/SERT and VMAT2) from receptor-level disinhibition (opioids on VTA GABA interneurons), and explain alcohol's dual GABA-A/NMDA mechanism. Sticky team scoreboard, per-question timer, and an explanation after every answer.",
+      "url": "https://addiction-and-withdrawal-review-games.vercel.app"
+    },
+    {
+      "slug": "meth-synapse-simulation",
+      "name": "Methamphetamine Synapse Simulation",
+      "description": "A student-built five-stage walkthrough of how methamphetamine forces dopamine into the synapse and triggers receptor downregulation. Each stage pairs a clear biological explanation with a checkpoint quiz, ending with the recovery gap that explains why healthy activities feel dim after sustained use. Built as part of the Neuroscience of Withdrawal unit.",
+      "url": "https://meth-synapse-simulation.vercel.app",
+      "student_work": true
+    },
+    {
+      "slug": "mdma-synapse-simulation",
+      "name": "MDMA Synapse Simulation",
+      "description": "A student-built simulation of how MDMA floods the serotonin synapse, reversing the transporter and disrupting reuptake. Walks through the chemical surge, the receptor adaptation, and the recovery gap once the drug is gone. Built as part of the Neuroscience of Withdrawal unit.",
+      "url": "https://mdma-synapse-simulation.vercel.app",
+      "student_work": true
+    },
+    {
       "slug": "ai-and-ml",
       "name": "AI & ML",
       "description": "The course hub for AI and Media Literacy. Students see every project and benchmark on one quiet page, check off their work as they complete it, and drop evidence of each benchmark (image, video, or link) into a small live gallery so the class can see each other's thinking.",
