@@ -165,6 +165,12 @@
       "url": "https://synapse-neurotransmitters.vercel.app"
     },
     {
+      "slug": "brain-pathways",
+      "name": "Brain Pathways: From Stimulus to Response",
+      "description": "The third app in the neuroscience sequence after Action Potential and Synapse. Students zoom out to whole-brain systems and step-by-step trace pathways for touch, pain, hearing, smell, vision, reward, addiction, and motor coordination over an anatomically grounded sagittal brain. Each scene gates the Next button until students have driven the impulse through every internal segment, then ends with a synthesis reflection.",
+      "url": "https://brain-pathways.vercel.app"
+    },
+    {
       "slug": "synapse-review-games",
       "name": "Synapse Review Games",
       "description": "A three-round classroom review game on synaptic transmission paired with rotating trivia: world geography, general science, and pop culture. Round one covers anatomy and mechanism, round two the six common neurotransmitters, round three SSRIs versus MAO inhibitors and neuroplasticity. Sticky team scoreboard, per-question timer, and explanations after every answer.",
