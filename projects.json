@@ -103,6 +103,12 @@
       "url": "https://covalent-review-games.vercel.app"
     },
     {
+      "slug": "cow-eye-dissection",
+      "name": "Cow Eye Dissection",
+      "description": "A six-step digital companion for cow eye dissection. Students follow along on their devices as they inspect the exterior, locate the cornea, identify the optic nerve, remove and test the lens, shine light through it, and examine the retina and tapetum lucidum. Each step pairs a real dissection photo with clear instructions and anatomy. An optional ten-question review quiz follows.",
+      "url": "https://cow-eye-dissection.vercel.app"
+    },
+    {
       "slug": "d4sg-at-sa",
       "name": "D4SG @ SA",
       "description": "The course hub for Design for Social Good at Sonoma Academy. A single quiet page lists every project and its benchmarks; students check off their work as they finish it, and drop evidence of each benchmark — an image, video, or link — into a small live gallery so the class can see each other's thinking.",
