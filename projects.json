@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T00:00:00Z",
+  "generated_at": "2026-08-14T21:22:52Z",
   "projects": [
     {
       "slug": "action-potential",
@@ -32,24 +32,10 @@
       "url": "https://addiction-and-withdrawal-review-games.vercel.app"
     },
     {
-      "slug": "meth-synapse-simulation",
-      "name": "Methamphetamine Synapse Simulation",
-      "description": "A student-built five-stage walkthrough of how methamphetamine forces dopamine into the synapse and triggers receptor downregulation. Each stage pairs a clear biological explanation with a checkpoint quiz, ending with the recovery gap that explains why healthy activities feel dim after sustained use. Built as part of the Neuroscience of Withdrawal unit.",
-      "url": "https://meth-synapse-simulation.vercel.app",
-      "student_work": true
-    },
-    {
-      "slug": "mdma-synapse-simulation",
-      "name": "MDMA Synapse Simulation",
-      "description": "A student-built simulation of how MDMA floods the serotonin synapse, reversing the transporter and disrupting reuptake. Walks through the chemical surge, the receptor adaptation, and the recovery gap once the drug is gone. Built as part of the Neuroscience of Withdrawal unit.",
-      "url": "https://mdma-synapse-simulation.vercel.app",
-      "student_work": true
-    },
-    {
       "slug": "ai-and-ml",
       "name": "AI & ML",
       "description": "The course hub for AI and Media Literacy. Students see every project and benchmark on one quiet page, check off their work as they complete it, and drop evidence of each benchmark (image, video, or link) into a small live gallery so the class can see each other's thinking.",
-      "url": "https://ai-ml-class.vercel.app"
+      "url": "https://ai-and-ml.vercel.app"
     },
     {
       "slug": "arduino-button-mapper",
@@ -72,6 +58,12 @@
       "url": "https://balancing-reactions.vercel.app"
     },
     {
+      "slug": "brain-pathways",
+      "name": "Brain Pathways: From Stimulus to Response",
+      "description": "The third app in the neuroscience sequence after Action Potential and Synapse. Students zoom out to whole-brain systems and step-by-step trace pathways for touch, pain, hearing, smell, vision, reward, addiction, and motor coordination over an anatomically grounded sagittal brain. Each scene gates the Next button until students have driven the impulse through every internal segment, then ends with a synthesis reflection.",
+      "url": "https://brain-pathways.vercel.app"
+    },
+    {
       "slug": "case-study-generator-v2",
       "name": "Case Study Generator",
       "description": "Teachers generate fictional medical case studies that tunnel students toward specific science content through clinical reasoning. Students diagnose patients as they discover biology, chemistry, and neuroscience; teacher-side notes, student share links, and QR codes keep workflow frictionless.",
@@ -82,13 +74,6 @@
       "name": "Class Timer",
       "description": "A clean, fullscreen countdown timer built for classroom pacing. Click to set time, spacebar to start, and project it from the back of the room without distraction. Gentle chime alerts when time expires.",
       "url": "https://class-timer.vercel.app"
-    },
-    {
-      "slug": "quick-timer",
-      "name": "Quick Timer",
-      "description": "A no-fuss classroom countdown with one-tap preset buttons from one minute to one hour. Spacebar starts and pauses, R resets, F goes fullscreen — built for projecting from the back of the room without distraction.",
-      "url": "https://class-timer-xi.vercel.app",
-      "external": true
     },
     {
       "slug": "classroom-podcast-finder",
@@ -103,15 +88,9 @@
       "url": "https://covalent-review-games.vercel.app"
     },
     {
-      "slug": "cow-eye-dissection",
-      "name": "Cow Eye Dissection",
-      "description": "A six-step digital companion for cow eye dissection. Students follow along on their devices as they inspect the exterior, locate the cornea, identify the optic nerve, remove and test the lens, shine light through it, and examine the retina and tapetum lucidum. Each step pairs a real dissection photo with clear instructions and anatomy. An optional ten-question review quiz follows.",
-      "url": "https://cow-eye-dissection.vercel.app"
-    },
-    {
       "slug": "d4sg-at-sa",
-      "name": "D4SG @ SA",
-      "description": "The course hub for Design for Social Good at Sonoma Academy. A single quiet page lists every project and its benchmarks; students check off their work as they finish it, and drop evidence of each benchmark — an image, video, or link — into a small live gallery so the class can see each other's thinking.",
+      "name": "T4SG @ SA",
+      "description": "The course hub for Tech for Social Good at Sonoma Academy. A single quiet page lists every project and its benchmarks; students check off their work as they finish it, and drop evidence of each benchmark — an image, video, or link — into a small live gallery so the class can see each other's thinking.",
       "url": "https://d4sg-at-sa.vercel.app"
     },
     {
@@ -134,10 +113,31 @@
       "student_work": true
     },
     {
+      "slug": "mdma-synapse-simulation",
+      "name": "MDMA Synapse Simulation",
+      "description": "A student-built simulation of how MDMA floods the serotonin synapse, reversing the transporter and disrupting reuptake. Walks through the chemical surge, the receptor adaptation, and the recovery gap once the drug is gone. Built as part of the Neuroscience of Withdrawal unit.",
+      "url": "https://mdma-synapse-simulation.vercel.app",
+      "student_work": true
+    },
+    {
+      "slug": "meth-synapse-simulation",
+      "name": "Methamphetamine Synapse Simulation",
+      "description": "A student-built five-stage walkthrough of how methamphetamine forces dopamine into the synapse and triggers receptor downregulation. Each stage pairs a clear biological explanation with a checkpoint quiz, ending with the recovery gap that explains why healthy activities feel dim after sustained use. Built as part of the Neuroscience of Withdrawal unit.",
+      "url": "https://meth-synapse-simulation.vercel.app",
+      "student_work": true
+    },
+    {
       "slug": "newcomer-bridge",
       "name": "Newcomer Bridge",
       "description": "A plug-and-play five-day sequence for newcomer English learners stepping into 7th grade California history and science. Each day uses the same four-move structure (Preview, Show, Try, Say) so students get a foothold in the curriculum while teachers practice five reusable EL scaffolds: realia, sorting, sentence frames, TPR, and gradual release.",
       "url": "https://newcomer-bridge.vercel.app"
+    },
+    {
+      "slug": "quick-timer",
+      "name": "Quick Timer",
+      "description": "A no-fuss classroom countdown with one-tap preset buttons from one minute to one hour. Spacebar starts and pauses, R resets, F goes fullscreen — built for projecting from the back of the room without distraction.",
+      "url": "https://class-timer-xi.vercel.app",
+      "external": true
     },
     {
       "slug": "resilient-body-workouts",
@@ -171,12 +171,6 @@
       "url": "https://synapse-neurotransmitters.vercel.app"
     },
     {
-      "slug": "brain-pathways",
-      "name": "Brain Pathways: From Stimulus to Response",
-      "description": "The third app in the neuroscience sequence after Action Potential and Synapse. Students zoom out to whole-brain systems and step-by-step trace pathways for touch, pain, hearing, smell, vision, reward, addiction, and motor coordination over an anatomically grounded sagittal brain. Each scene gates the Next button until students have driven the impulse through every internal segment, then ends with a synthesis reflection.",
-      "url": "https://brain-pathways.vercel.app"
-    },
-    {
       "slug": "synapse-review-games",
       "name": "Synapse Review Games",
       "description": "A three-round classroom review game on synaptic transmission paired with rotating trivia: world geography, general science, and pop culture. Round one covers anatomy and mechanism, round two the six common neurotransmitters, round three SSRIs versus MAO inhibitors and neuroplasticity. Sticky team scoreboard, per-question timer, and explanations after every answer.",
@@ -195,16 +189,10 @@
       "url": "https://tasks-app.vercel.app"
     },
     {
-      "slug": "token-tour-tracker",
-      "name": "Token Tour Tracker",
-      "description": "Tracks when bands and artists who play Token guitar picks announce tours nearby. Pulls from Bandsintown and MusicBrainz, plots upcoming shows on a Leaflet map, and updates as new dates are added. Built as a single-file HTML app, ad hoc and personal.",
-      "url": "https://token-tour-tracker.vercel.app"
-    },
-    {
       "slug": "word-cloud",
       "name": "Word Cloud",
       "description": "Turn text into visual word clouds to reveal patterns and frequency. Students paste essays, articles, or brainstorms to instantly see which concepts dominate the conversation, sparking reflection on their writing.",
-      "url": "https://word-cloud-dusky.vercel.app"
+      "url": "https://word-cloud.vercel.app"
     },
     {
       "slug": "xbac-tester",
