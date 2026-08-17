@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:22:52Z",
+  "generated_at": "2026-08-17T18:11:54Z",
   "projects": [
     {
       "slug": "action-potential",
@@ -91,7 +91,7 @@
       "slug": "d4sg-at-sa",
       "name": "T4SG @ SA",
       "description": "The course hub for Tech for Social Good at Sonoma Academy. A single quiet page lists every project and its benchmarks; students check off their work as they finish it, and drop evidence of each benchmark — an image, video, or link — into a small live gallery so the class can see each other's thinking.",
-      "url": "https://d4sg-at-sa.vercel.app"
+      "url": "https://t4sg-at-sa.vercel.app"
     },
     {
       "slug": "demyelination",
@@ -187,6 +187,13 @@
       "name": "Tasks App",
       "description": "A single-file task manager built for daily project tracking. Firebase-synced, no accounts, minimal interface — just the rhythm of capturing what needs to be done and watching the list shrink as the day progresses.",
       "url": "https://tasks-app.vercel.app"
+    },
+    {
+      "slug": "token-tour-tracker",
+      "name": "Token Tour Tracker",
+      "description": "A tour radar for Token, the guitar pick company. It follows bands whose players use Token picks, maps their shows against home or a travel stop, and flags new dates the moment they appear, with each artist's lineup, socials, and latest videos one click away.",
+      "url": "https://token-tour-tracker.vercel.app",
+      "external": true
     },
     {
       "slug": "word-cloud",
